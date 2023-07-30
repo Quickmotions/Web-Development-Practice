@@ -1,0 +1,62 @@
+.gradient-background {
+  background: linear-gradient(300deg, #96a898, #43c7af, #1d1bab);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 120px;
+  border-radius: 50%;
+}
+
+
+
+.row {
+  padding-bottom: 0 !important;
+  padding-top: 5px !important;
+
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+  background-color: #b6d094 !important;
+}
+
+.btn-primary {
+  --bs-btn-color: white;
+  --bs-btn-bg: #b6d094;
+  --bs-btn-border-color: #b6d094;
+  --bs-btn-hover-bg: #d2e6b9;
+  --bs-btn-hover-border-color: #d2e6b9;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: white;
+  --bs-btn-border-color: #b6d094;
+  --bs-btn-hover-bg: #b6d09427;
+  --bs-btn-hover-color: White;
+  --bs-btn-hover-border-color: #b6d094;
+}
+
+.link-secondary {
+  color: black !important;
+}
